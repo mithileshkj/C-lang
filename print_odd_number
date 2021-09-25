@@ -1,0 +1,12 @@
+#include<stdio.h>
+main()
+{
+    int i=1,count;
+    for(count=1;count<=10;)
+    {
+        printf("%d ",i);
+        i=i+2;
+        count++;
+    }
+    getch();
+}
