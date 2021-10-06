@@ -1,8 +1,10 @@
 #include<stdio.h>
 main()
 {
-    int i=1,count;
-    for(count=1;count<=10;)
+    int i=1,count,n;
+    printf("Enter a number:");
+    scanf("%d",&n);
+    for(count=1;count<=n;)
     {
         printf("%d ",i);
         i=i+2;
